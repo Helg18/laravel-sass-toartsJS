@@ -21,6 +21,9 @@ require('vue-resource');
 
 // Toastr
 toastr = require('toastr');
+
+//quietflow
+quietflow = require('../../../node_modules/quietflow/lib/quietflow');
 /**
  * We'll register a HTTP interceptor to attach the "CSRF" header to each of
  * the outgoing requests issued by this application. The CSRF middleware

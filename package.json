@@ -25,6 +25,7 @@
   "author": "\"Henry Leon\"",
   "license": "MIT",
   "dependencies": {
+    "quietflow": "^1.0.1",
     "toastr": "^2.1.2"
   }
 }

@@ -6,6 +6,7 @@
  */
 
 require('./bootstrap');
+require('../../../node_modules/quietflow/lib/quietflow.min.js');
 
 // Toastr
 //toastr.info('mensaje de Session');
