@@ -36,12 +36,6 @@ $input-color-placeholder: lighten($text-color, 30%);
 // Panels
 $panel-default-heading-bg: #fff;
 
-// Letras de hover
-.links a{
-  &:hover{
-    color: #a33;
-  }
-}
 html, body {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
@@ -84,12 +78,19 @@ html, body {
 
 .links{
    a {
-    padding: 0 25px;
+    padding: 5px 25px;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: .1rem;
     text-decoration: none;
     text-transform: uppercase;
+    background-color: $laravel-border-color;
+    border-radius: 5px;
+
+      &:hover{
+        color: #a33;
+        background-color: darken($body-bg, 40%);
+      }
   }
 }
 

@@ -31,12 +31,12 @@
                 </div>
 
                 <div class="links">
-                    <a href="link">Documentation</a>
-                    <a href="link">Laracasts</a>
-                    <a href="link">News</a>
-                    <a href="link">Forge</a>
-                    <a href="link">GitHub</a>
+                  <a href="link">Probar</a>
+                  <a href="link">Probar</a>
+                  <a href="link">Probar</a>
+                  <a href="link">Probar</a>
                 </div>
+
             </div>
         </div>
         <script src="/js/app.js"></script>
@@ -51,7 +51,7 @@
         })
         </script>
         @if (session()->has('llave'))
-          <script>toastr.info("{{ Session::get('llave') }}");</script>
+          <script>toastr.error("{{ Session::get('llave') }}");</script>
         @endif
     </body>
 </html>
