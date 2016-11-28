@@ -31,10 +31,10 @@
                 </div>
 
                 <div class="links">
-                  <a href="link">Probar</a>
-                  <a href="link">Probar</a>
-                  <a href="link">Probar</a>
-                  <a href="link">Probar</a>
+                  <a class="shake" href="link">Probar</a>
+                  <a class="shake-slow" href="link">Probar</a>
+                  <a class="shake-rotate" href="link">Probar</a>
+                  <a class="shake-slow shake-constant shake-constant--hover" href="link">Probar</a>
                 </div>
 
             </div>
